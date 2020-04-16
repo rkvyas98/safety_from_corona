@@ -82,6 +82,9 @@ p{
   margin: auto;
   width: 70%;
 }
+.symptoms-text{
+  text-align: left;
+}
 .request{
   font-size: 1.5rem;
   color: #543864;
@@ -92,6 +95,9 @@ p{
 }
 .safety-images{
   width: 30%;
+}
+.corona-count{
+  text-align: center;
 }
 .eng-btn{
   background-color:  #CBE2B0;
@@ -109,8 +115,10 @@ p{
   text-align: center;
 }
 .immunity{
-  margin: 40px 100px;
-
+  text-align: center;
+}
+.immunity-poster{
+  width: 80%;
 }
 .social-hub{
   text-align: center;
