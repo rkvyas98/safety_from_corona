@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <!-- jquery scripts -->
-  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
@@ -77,6 +78,28 @@
   </section>
 
     <h1 class="big-heading"> <strong>Stay Safe from Coronavirus.</strong> </h1>
+
+    <div class="corona-count">
+    <h2> <strong>Know live Coronavirus cases</strong> </h2>
+    <div class="row corona-div">
+      <div class="abc col-lg-6 col-md-6 col-sm-12"">
+        <div class="corona-world-div">
+          <h2>World-wide</h2>
+          <p class="world-count"></p>
+          <span>To know more click on the button below -</span>
+          <a type="button" class="btn btn-outline-light btn-lg corona-btn" href="https://www.worldometers.info/coronavirus/">World-wide</a>
+        </div>
+      </div>
+      <div class=" col-lg-6 col-md-6 col-sm-12"">
+        <div class="corona-india-div">
+          <h2>India</h2>
+          <p class="india-count"></p>
+          <span>To know more click on the button below -</span>
+          <a type="button" class="btn btn-outline-light btn-lg corona-btn"href="https://www.covid19india.org/">India's count</a>
+        </div>
+      </div>
+    </div>
+  </div> <br>
 
     <h2 id="symptoms"> <strong>Symptoms of Coronavirus</strong> </h2>
 
@@ -215,12 +238,7 @@
   </div>
   <hr>
 
-  <div class="corona-count">
-    <h2> <strong>Know live Coronavirus causes</strong> </h2>
-    <a type="button" class="btn btn-outline-success btn-lg" href="https://www.worldometers.info/coronavirus/">World-wide</a>
-    <a type="button" class="btn btn-outline-success btn-lg" href="https://www.covid19india.org/">India's count</a>
-
-  </div>
+  
   <br>
   <h2><strong>India's MYGOV Social hub</strong></h2>
 
@@ -251,9 +269,7 @@
   </div>
 
   <hr>
-<p class="copyright"> <strong> © Rakshit Vyas.2020 </strong> </p>
-<br>
-  <script src="index.js" charset="utf-8"></script>
+  <p class="copyright">© Rakshit Vyas.2020</p>
 </body>
 
 </html>

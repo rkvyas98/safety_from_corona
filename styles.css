@@ -96,8 +96,42 @@ p{
 .safety-images{
   width: 30%;
 }
+/* Live Corona Count section */
 .corona-count{
   text-align: center;
+  align-items: center;
+}
+.corona-world-div{
+  background: #543864;
+  border-radius: 10px;
+  padding: 20px 20px; 
+  margin: 20px 10% 20px 30%;
+  width: 60%;
+}
+.corona-india-div{
+  background: #543864;
+  border-radius: 10px;
+  padding: 20px 20px; 
+  margin: 20px 30% 20px 10%;
+  width: 60%;
+}
+.corona-div h2{
+  margin-top: 15px;
+  font-weight: bolder;
+  color: #fff;
+}
+.corona-div p{
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.corona-div span{
+  color: #fff;
+  margin-bottom: 25px;
+}
+.corona-btn{
+  margin-top: 5px;;
+  font-weight: bold;
 }
 .eng-btn{
   background-color:  #CBE2B0;
@@ -132,4 +166,22 @@ p{
 }
 .social-links:hover{
   color: black;
+}
+
+@media (max-width: 500px) {
+  .corona-div{
+    width: 80%;
+  }
+  .btn{
+    padding: 6px 10px;
+  }
+  .corona-world-div{
+    width: 80%;
+    margin: 20px 10%;
+  }
+  .corona-india-div{
+    width: 80%;
+    margin: 20px 10%;
+  }
+
 }
